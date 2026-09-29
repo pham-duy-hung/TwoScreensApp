@@ -12,7 +12,7 @@ import com.ute.twoscreensapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private var currentStudent = Student("SV01", "Nguyen Van A", 3.5)
+    private var currentStudent = Student("SV01", "Phạm Duy Hưng", 3.5)
 
     // 1. Đăng ký Launcher ở cấp thuộc tính lớp
     private lateinit var editProfileLauncher: ActivityResultLauncher<Intent>
